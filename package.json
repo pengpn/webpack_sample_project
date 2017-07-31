@@ -1,0 +1,20 @@
+{
+  "name": "webpack-sample-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "webpack",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC"
+}
